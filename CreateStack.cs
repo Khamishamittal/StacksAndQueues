@@ -9,7 +9,8 @@ namespace StacksAndQueues
 {
     public class CreateStack
     {
-      
+        public class LinkedListStack
+        {
             private Node top;
             public void Push(int value)
             {
@@ -30,6 +31,8 @@ namespace StacksAndQueues
                     temp = temp.next;
                 }
             }
+
         }
     }
+}
 

@@ -14,10 +14,13 @@
             stack.Push(56);
             stack.Display();
 
-
         }
-
     }
+
+
 }
+
     
+
+   
 
